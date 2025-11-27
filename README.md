@@ -1,5 +1,3 @@
-<img width="75" height="8192" alt="image" src="https://github.com/user-attachments/assets/90296f5d-d188-4907-a8be-7a74e589527c" /># Sales Forecasting & Marketing Dashboard for People’s Coffee
-
 ## 1) Problem Overview:
 
 People’s Coffee is a local café chain with three branches across Melbourne.  
@@ -113,31 +111,36 @@ The goal is to turn raw POS data into clear metrics and visuals that support dai
   - For the Top 10 Items with Highest Forecasted Sales, Actual Sales 12M total **$831K**, Forecast 12M **$914K** → **+9.94% Variance %** from just these 10 SKUs.
 
 - **Seasonality**  
-  - Forecasted Sales by Month & Season highlight stronger months in **spring/autumn (e.g. Sept–Nov, Mar–May)** with forecasts around **$130K–$155K**, pattern aligns with CBD office rhythms.
-  - Softer months like **Dec–Jan** closer to **$100K–$120K**, matching Melbourne’s holiday exodus and quieter office periods.
+  - Stronger months in **spring and autumn (Sept–Nov, Mar–May)** around **$130K–$155K**.
+  - Softer months in **Dec–Jan** closer to **$100K–$120K**.
+  - Pattern aligns with CBD office rhythms and Melbourne holiday periods.
 
 ---
 
 ## 7) Recommendations:
 
-- **Defend the core coffee line while nudging baskets up**  
-  - Keep Latte, Flat White and Cappuccino front and centre – they’re the default order for office workers.  
-  - Use them as anchors: push “coffee + food” combos at breakfast and mid-morning to lift average ticket rather than chasing more cups alone.
+- **Protect core coffee sales**  
+  - Keep Latte, Flat White and Cappuccino front and centre, they’re the default order for office workers.  
+  - Use them to lift basket size: push **coffee + pastry / breakfast** bundles during morning and mid-morning peaks to offset their negative Variance %.
 
-- **Lean into food as the growth engine**  
-  - Put **Cinnamon scroll, Berry Bircher, Fresh Sandwich and Bircher Muesli** on prime display and digital boards during commute and lunch windows.  
-  - Treat them as hero items: limited-time flavours, bundle pricing with coffees, and clear signage for “fast grab” for office crowds.
+- **Push high-growth food item**  
+  - Prioritise **Cinnamon scroll, Berry Bircher, Fresh Sandwich** in display, menu boards and app tiles.
+  - Actively promote them by:
+    - Featuring them in “grab-and-go” offers for office workers.
+    - Pairing them with core coffees at a small bundle discount.
 
-- **Plan labour and ordering around Melbourne’s true peaks**  
-  - Staff up and order aggressively for **spring and autumn** peaks; that’s when CBD foot traffic and outdoor-coffee culture align.  
-  - In **Dec–Jan**, run leaner rosters, trim prep volumes, and shift focus to tourists and pass-through trade rather than full office capacity.
-
+- **Plan inventory and labour by season**
+  - For **Sept–Nov, Mar–May** (**high forecast months, spring & autumn**), schedule more baristas and kitchen prep, order beans and ingredients in line with the forecast.
+  - For **Dec–Jan** (**softer months**), run leaner rosters and tighter ordering, and test tourist-friendly or holiday-themed offers instead of staffing for full, as there's not much office traffic.
+ 
 - **Use promotions surgically, not blanket discounts**  
-  - Target low-forecast months and slower weeks with specific offers (e.g. afternoon pastry deals, rainy-day promos), instead of cutting prices across the board.  
+  - Target low-forecast months with specific offers (e.g. rainy-day promos in Sep – Nov), instead of cutting prices across the board.  
   - Measure response in **MoM Growth %** and **Sales Variance %** for those months to keep only the campaigns that genuinely move the needle.
-
-- **Continuously curate the Top 10 list**  
-  - Review the **Top 10 Items with Highest Forecasted Sales** every quarter.  
-  - Keep items with strong positive **Variance %** and solid margins; tweak recipe, price, or placement for those slipping, and don’t hesitate to retire chronic underperformers – Melbourne coffee drinkers are quick to adopt something better.
+    
+- **Continuously tune the product mix**
+  - Review the **Top 10 Items with Highest Forecasted Sales** quarterly:
+    - Keep items with strong positive **Variance %** and **good margins**.
+    - Investigate declining core coffees (price perception, competition, quality drift).
+    - Retire or reformulate items that sit in the bottom of the list with weak sales and no forecasted lift.
  
  ---
