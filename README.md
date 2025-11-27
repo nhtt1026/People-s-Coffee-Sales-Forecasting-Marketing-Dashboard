@@ -44,50 +44,28 @@ The goal is to turn raw POS data into clear metrics and visuals that support dai
 
 <img width="2398" height="1324" alt="image" src="https://github.com/user-attachments/assets/1a2b5da5-2b62-4921-8562-6238ed8ea88f" />
 
-**Main Dashboard Views**
-
-1. **Sales Overview**
-   - Total monthly revenue  
-   - Number of monthly transactions  
-   - Monthly sales trend  
-
-2. **Forecast & Seasonality**
-   - Historical vs forecasted monthly sales (next 12 months)  
-   - Actual vs forecast variance  
-   - Seasonality by month and year  
-
-3. **Product Performance**
-   - Top 10 and bottom 10 products by monthly revenue and quantity  
-   - Monthly sales by product and category  
-   - Products ranked by forecasted monthly demand  
-
-4. **Demand & Low-Demand Periods**
-   - Monthly demand trend across 36 months  
-   - Identification of low-demand periods for potential campaigns  
-
 ---
 
-## 5) Business Metrics:
+## 5) Business Metrics
 
-- **Revenue & Volume**
-  - Total sales revenue  
-  - Number of transactions  
-  - Units sold by product and category  
+- **Sales & Growth**
+  - Actual Sales 12M
+  - Forecast Sales 12M
+  - Sales Variance % (Actual vs Forecast)
+  - MoM Growth % and QoQ Growth %
 
-- **Forecast Metrics**
-  - Forecasted monthly sales (12-month horizon)  
-  - Actual vs forecast variance (value and %)  
-  - Forecast accuracy for key products  
+- **Forecast & Trend**
+  - Net Sales Trend (Actual vs Forecast by month)
+  - Forecasted Sales by Month & Season (12M forecasted)
 
-- **Product & Category Metrics**
-  - Top / bottom products by sales  
-  - Category contribution to total revenue  
-  - Product mix over time  
+- **Products & Categories**
+  - Top 10 Best-Selling Items by Total Net Sales
+  - Top 10 Items with Highest Forecasted Sales (Actual Sales 12M, Forecast 12M, Sales Variance)
+  - Category Contribution to Total Net Sales (e.g., People’s Coffee, pastries, RTD)
 
-- **Demand & Operations**
-  - Demand patterns by month and year
-  - Low-demand months for potential campaigns  
-  - Inputs to monthly stock ordering and staff rostering 
+- **Seasonality & Demand**
+  - Sales and forecasts sliced by Season (Autumn, Winter, Spring, Summer)
+  - Holiday Month vs Non-Holiday Month performance (with HasHoliday filter)
 
 ---
 
