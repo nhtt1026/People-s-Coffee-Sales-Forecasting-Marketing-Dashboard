@@ -1,4 +1,4 @@
-# Sales Forecasting & Marketing Dashboard for People’s Coffee
+<img width="75" height="8192" alt="image" src="https://github.com/user-attachments/assets/90296f5d-d188-4907-a8be-7a74e589527c" /># Sales Forecasting & Marketing Dashboard for People’s Coffee
 
 ## 1) Problem Overview:
 
@@ -95,28 +95,26 @@ The goal is to turn raw POS data into clear metrics and visuals that support dai
 
 ## 6) Insights:
 
-- **Overall performance – solid base with room to grow**  
-  - Actual Sales 12M sit at **$1.46M**, with Forecast 12M at **$1.69M** – a **+15.41% Sales Variance %**.  
-  - For a CBD office-heavy site, **+3.28% MoM Growth %** and **+10.31% QoQ Growth %** tell me the store is trending up, not just riding one good month.
+- **Overall performance**  
+  - Actual Sales 12M: **$1.46M** vs Forecast 12M: **$1.69M** → **+15.41% Sales Variance %**  
+  - Positive short-term momentum with **+3.28% MoM Growth %** and **+10.31% QoQ Growth %**.
 
-- **Core coffees are mature, not shrinking heroes**  
-  - Latte, Flat White and Cappuccino still dominate *Net Sales (Total)*, but they all carry **negative Variance %**:  
-    - Latte **–10.68%**, Flat White **–6.88%**, Cappuccino **–9.39%**.  
-  - Classic Melbourne pattern: volume is high, but growth has moved to food and alternates rather than more cups of the same coffee.
+- **Top products vs forecast**  
+  - Latte, Flat White and Cappuccino remain the highest by Net Sales (Total), but all have **negative Variance %**  
+    - Latte: –10.68%, Flat White: –6.88%, Cappuccino: –9.39%.
 
-- **Food and breakfast are where the growth is**  
-  - Fresh Sandwich: **+23.76% Variance %** – weekday lunch and grab-and-go are working.  
-  - Cinnamon scroll: **+126.40% Variance %**, Berry Bircher: **+88.18% Variance %** – clear winners for morning trade.  
-  - Bircher Muesli jumps from **$0 Actual Sales 12M** to **~$46.6K Forecast 12M**; that’s a strong signal that Melbourne CBD customers are leaning into “quick but healthy” breakfast.
+- **Emerging growth items**  
+  - Fresh Sandwich: **+23.76% Variance %**.  
+  - Cinnamon scroll: **+126.40% Variance %**.
+  - Long Black: **+10.54% Variance %**.  
+  - Berry Bircher: **+88.18% Variance %**.  
 
-- **Top 10 SKUs carry most of the upside**  
-  - Top 10 Items with Highest Forecasted Sales:  
-    - Actual Sales 12M **$831K** → Forecast 12M **$914K** (**+9.94% Variance %**).  
-  - A small product set is responsible for almost all the expected uplift, which is typical for a tight city café menu.
+- **Top 10 portfolio impact**  
+  - For the Top 10 Items with Highest Forecasted Sales, Actual Sales 12M total **$831K**, Forecast 12M **$914K** → **+9.94% Variance %** from just these 10 SKUs.
 
-- **Seasonality reflects office and holiday rhythms**  
-  - Forecasted Sales by Month & Season show stronger months in **spring and autumn (Sept–Nov, Mar–May)** around **$130K–$155K**, when CBD office attendance and weather both help trade.  
-  - **December–January** sit closer to **$100K–$120K**, matching Melbourne’s holiday exodus and quieter office periods.
+- **Seasonality**  
+  - Forecasted Sales by Month & Season highlight stronger months in **spring/autumn (e.g. Sept–Nov, Mar–May)** with forecasts around **$130K–$155K**, pattern aligns with CBD office rhythms.
+  - Softer months like **Dec–Jan** closer to **$100K–$120K**, matching Melbourne’s holiday exodus and quieter office periods.
 
 ---
 
