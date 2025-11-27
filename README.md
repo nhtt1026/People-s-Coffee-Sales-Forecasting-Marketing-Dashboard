@@ -1,205 +1,145 @@
 # Sales Forecasting & Marketing Dashboard for People’s Coffee
 
-## 1) Problem Overview
+## 1) Problem Overview:
 
-People’s Coffee is a locally owned café chain with three branches across Melbourne. This project focuses on the 440 Collins Street branch in Melbourne CBD, where the main customers are busy office workers who expect fast service and consistently good coffee.
+People’s Coffee is a local café chain with three branches across Melbourne.  
+This project focuses on the 440 Collins Street CBD branch, where management needs a data-driven way to:
 
-Although the café is already performing well, it lacks a data-driven way to:
-
-- Anticipate future sales and demand  
+- Track sales performance over time  
+- Forecast future demand  
 - Identify low-demand periods  
-- Plan staffing and inventory efficiently  
-- Target promotions at the right time with the right products  
+- Optimise staffing and stock levels  
 
-Without proper forecasting and analytics, the café risks overstaffing/understaffing, stock issues, and missed opportunities to grow revenue during quieter periods.
-
----
-
-## 2) Introduction
-
-This project delivers a **Sales Forecasting & Marketing Dashboard** for People’s Coffee at the 440 Collins Street branch.
-
-### Scope & Objectives
-
-- Use **36 months of historical POS sales data** from the Collins Street branch  
-- Build **time-series forecasting models** to predict monthly sales for the next 12 months  
-- Design an **interactive Power BI dashboard** that combines:
-  - Historical performance  
-  - Forecasted sales  
-  - Product-level insights  
-  - Seasonality and low-demand periods  
-- Support business decisions related to:
-  - Stock ordering and bean purchasing  
-  - Staff rostering  
-  - Targeted promotions and menu optimisation  
-
-The solution is scoped to the Collins Street branch; multi-branch rollout and real-time POS integration are considered future enhancements.
-
-### Tools & Technologies
-
-- **Power BI** – Data modelling, visualisation, and interactive dashboards  
-- **Statistical forecasting tool (e.g. SAS / similar)** – Time-series forecasting and accuracy evaluation  
-- **Excel / CSV** – Data preparation and validation  
+The goal is to turn raw POS data into clear metrics and visuals that support daily operational and marketing decisions.
 
 ---
 
-## 3) Steps Have Been Done
+## 2) Introduction:
 
-1. **Requirements & Project Planning**
-   - Gathered requirements from the café owner and manager:
-     - How to forecast monthly sales reliably  
-     - When low-demand periods occur  
-     - Which products are top and under-performers  
-   - Defined success criteria:
-     - Reasonable forecast accuracy for high-volume items  
-     - Clear visibility of seasonal patterns and low-demand periods  
-
-2. **Data Collection & Cleaning**
-   - Collected **36 months of POS transaction data** for the Collins Street branch  
-   - Checked data completeness, corrected errors, removed duplicates  
-   - Created flags for events/holidays to better capture demand drivers  
-
-3. **Feature Engineering & Data Preparation**
-   - Aggregated raw transactions into **daily and monthly** time series  
-   - Built product-level metrics:
-     - Quantity sold  
-     - Revenue  
-   - Prepared final fact and dimension tables for forecasting and Power BI
-
-4. **Forecast Model Development**
-   - Built **time-series forecasting models** to predict monthly sales for the next 12 months  
-   - Focused on total branch sales and key high-volume items  
-   - Evaluated models against historical data using standard error/accuracy metrics  
-
-5. **Power BI Dashboard Design & Development**
-   - Modelled data in Power BI using a star schema  
-   - Designed multiple report pages including:
-     - Sales overview and key KPIs  
-     - Forecast vs actual views  
-     - Product performance (top and bottom items)  
-     - Seasonality and low-demand patterns (e.g. heatmaps, trend charts)  
-
-6. **Validation, Testing & Handover**
-   - Reviewed dashboard and forecasts with stakeholders  
-   - Validated that visuals were understandable and performed well  
-   - Documented methodology, assumptions, and usage instructions  
-   - Conducted a walkthrough so the café team can use the dashboard operationally  
+- Dataset: 36 months of historical POS sales data from the 440 Collins Street branch  
+- Scope: Single-branch analysis and 12-month sales forecast  
+- Tools:
+  - **Power BI** for data modelling and interactive dashboards  
+  - **Forecasting tool** (e.g. SAS EM) for time-series models  
+  - **Excel/CSV** for initial data preparation  
 
 ---
 
-## 4) Dashboard
-<img width="2410" height="1354" alt="image" src="https://github.com/user-attachments/assets/5f3de82c-6622-4baa-8d22-a16e9c73d7fe" />
+## 3) Steps Have Been Done:
 
-### Dashboard Views
+1. Collected 36 months of POS transaction data  
+2. Cleaned and pre-processed the data:
+   - Removed duplicates and handled missing values  
+   - Tagged seasonal patterns (month, year, holidays and special periods)  
+3. Built time-series forecasting models for total branch sales and key products
+4. Modelled data in Power BI (fact & dimension tables)  
+5. Created interactive dashboards for:
+   - Monthly sales trends  
+   - Forecast vs actual  
+   - Product performance  
+   - Low-demand months
+6. Reviewed outputs with stakeholders and documented usage & assumptions  
+
+---
+
+## 4) Dashboard:
+
+<img width="2398" height="1324" alt="image" src="https://github.com/user-attachments/assets/1a2b5da5-2b62-4921-8562-6238ed8ea88f" />
+
+**Main Dashboard Views**
 
 1. **Sales Overview**
-   - Total revenue and transaction count  
-   - Historical sales trend (monthly)  
-   - High-level KPIs for the Collins Street branch  
+   - Total monthly revenue  
+   - Number of monthly transactions  
+   - Monthly sales trend  
 
 2. **Forecast & Seasonality**
-   - Line chart with **historical vs forecasted monthly sales**  
-   - Clear distinction between actual and forecast periods  
-   - Visibility of seasonality and key months  
+   - Historical vs forecasted monthly sales (next 12 months)  
+   - Actual vs forecast variance  
+   - Seasonality by month and year  
 
 3. **Product Performance**
-   - **Top 10 and Bottom 10 products** by sales and quantity  
-   - Products ranked by forecasted demand for the next 12 months  
-   - Filters to focus on least forecasted products (underperformers)  
+   - Top 10 and bottom 10 products by monthly revenue and quantity  
+   - Monthly sales by product and category  
+   - Products ranked by forecasted monthly demand  
 
-4. **Demand Heatmap & Low-Demand Periods**
-   - Heatmap by month/day to highlight patterns in demand  
-   - Identification of low-demand periods that can be targeted with campaigns
-     
----
-
-## 5) Business Metrics
-
-The dashboard tracks a set of business metrics that support better decision-making for People’s Coffee:
-
-1. **Revenue & Volume**
-   - Total sales revenue  
-   - Number of transactions/orders  
-   - Units sold by product and product category  
-
-2. **Forecasting Metrics**
-   - Forecasted monthly sales for the next 12 months  
-   - Forecast vs actual variance (absolute and percentage)  
-   - Accuracy of forecasts for high-volume items  
-
-3. **Product & Category Performance**
-   - Sales by product and category (e.g. coffee, food, merchandise)  
-   - Top 10 and bottom 10 products by revenue and quantity  
-   - Products projected to drive future sales  
-
-4. **Seasonality & Demand Patterns**
-   - Month-on-month sales trends  
-   - Comparison of normal days vs holidays/events  
-   - Identification of low-demand periods across the year  
-
-5. **Operational Metrics**
-   - Indicators to assist **stock ordering** based on forecast demand  
-   - Demand peaks and troughs to support **staff rostering**  
+4. **Demand & Low-Demand Periods**
+   - Monthly demand trend across 36 months  
+   - Identification of low-demand periods for potential campaigns  
 
 ---
 
-## 6) Insights
+## 5) Business Metrics:
 
-Key insights from the analysis and forecasting:
+- **Revenue & Volume**
+  - Total sales revenue  
+  - Number of transactions  
+  - Units sold by product and category  
 
-- **Seasonal Demand Patterns**  
-  Sales show clear seasonal behaviour, with certain months and periods consistently performing higher than others. Recognising these patterns allows the café to prepare stock and staffing ahead of time.
+- **Forecast Metrics**
+  - Forecasted monthly sales (12-month horizon)  
+  - Actual vs forecast variance (value and %)  
+  - Forecast accuracy for key products  
 
-- **High Dependence on a Core Set of Products**  
-  A small group of high-performing items accounts for a large share of total revenue. These products are critical to maintain quality and availability and are strong candidates for promotional focus and upsell strategies.
+- **Product & Category Metrics**
+  - Top / bottom products by sales  
+  - Category contribution to total revenue  
+  - Product mix over time  
 
-- **Persistent Low-Demand Periods**  
-  The dashboard reveals time windows and days that are structurally quieter. These low-demand periods represent opportunities for targeted promotions, special offers, or operational changes rather than relying on guesswork.
-
-- **Better Visibility for Stock & Bean Ordering**  
-  Forecasts at monthly and product levels support more precise ordering, improving stock availability while reducing waste and overstock.
-
-- **Data-Driven Rostering**  
-  By using forecasted peaks and troughs, staff schedules can be aligned more closely with expected customer flow, improving service while managing labour costs.
-
-Overall, the café can move from **reactive** decisions based on intuition to **proactive** planning grounded in data and forecasts.
-
----
-
-## 7) Recommendations
-
-Based on the dashboard and forecasting results, the following actions are recommended:
-
-1. **Run Targeted Promotions in Low-Demand Periods**
-   - Use the demand heatmap and trend visuals to identify consistently quiet days and times  
-   - Design targeted campaigns (discounts, bundles, loyalty offers) for these specific windows  
-   - Monitor the uplift in sales after promotions and iterate on the most effective tactics  
-
-2. **Prioritise High-Performing and High-Forecast Products**
-   - Highlight top-selling items in menus, signage, and marketing materials  
-   - Consider bundles or cross-selling strategies that feature these key products  
-   - Ensure supply chain and ordering processes protect availability of these items  
-
-3. **Review & Optimise Underperforming Products**
-   - Evaluate bottom 10 products in terms of demand and profit margin  
-   - Consider recipe changes, repositioning, or removal from the menu if they remain consistently weak  
-   - Use the dashboard to track changes after any menu adjustments  
-
-4. **Align Stock Ordering with Forecast Demand**
-   - Use monthly and product-level forecasts as the basis for bean and ingredient ordering  
-   - Reduce over-ordering on products with declining forecasted demand  
-   - Track actual vs forecast over time to refine ordering assumptions  
-
-5. **Use Forecasts as an Input to Staff Rostering**
-   - Align peak shifts with forecasted high-demand periods (e.g. certain months or event days)  
-   - Reduce staffing during consistently low-demand periods while maintaining core service levels  
-   - Incorporate the dashboard into regular planning meetings  
-
-6. **Maintain Data Quality and Refresh the Dashboard Regularly**
-   - Ensure POS exports are complete and consistent each month  
-   - Refresh the Power BI report on a regular cadence so decisions are always based on recent data  
-   - Collect feedback from store managers and staff to evolve the dashboard as needs change  
+- **Demand & Operations**
+  - Demand patterns by month and year
+  - Low-demand months for potential campaigns  
+  - Inputs to monthly stock ordering and staff rostering 
 
 ---
 
-This project demonstrates how combining **time-series forecasting** with an **operational Power BI dashboard** can help a single café branch manage sales, staffing, stock, and marketing in a more informed and proactive way, and provides a foundation for scaling analytics to additional locations in the future.
+## 6) Insights:
+
+- **Overall performance – solid base with room to grow**  
+  - Actual Sales 12M sit at **$1.46M**, with Forecast 12M at **$1.69M** – a **+15.41% Sales Variance %**.  
+  - For a CBD office-heavy site, **+3.28% MoM Growth %** and **+10.31% QoQ Growth %** tell me the store is trending up, not just riding one good month.
+
+- **Core coffees are mature, not shrinking heroes**  
+  - Latte, Flat White and Cappuccino still dominate *Net Sales (Total)*, but they all carry **negative Variance %**:  
+    - Latte **–10.68%**, Flat White **–6.88%**, Cappuccino **–9.39%**.  
+  - Classic Melbourne pattern: volume is high, but growth has moved to food and alternates rather than more cups of the same coffee.
+
+- **Food and breakfast are where the growth is**  
+  - Fresh Sandwich: **+23.76% Variance %** – weekday lunch and grab-and-go are working.  
+  - Cinnamon scroll: **+126.40% Variance %**, Berry Bircher: **+88.18% Variance %** – clear winners for morning trade.  
+  - Bircher Muesli jumps from **$0 Actual Sales 12M** to **~$46.6K Forecast 12M**; that’s a strong signal that Melbourne CBD customers are leaning into “quick but healthy” breakfast.
+
+- **Top 10 SKUs carry most of the upside**  
+  - Top 10 Items with Highest Forecasted Sales:  
+    - Actual Sales 12M **$831K** → Forecast 12M **$914K** (**+9.94% Variance %**).  
+  - A small product set is responsible for almost all the expected uplift, which is typical for a tight city café menu.
+
+- **Seasonality reflects office and holiday rhythms**  
+  - Forecasted Sales by Month & Season show stronger months in **spring and autumn (Sept–Nov, Mar–May)** around **$130K–$155K**, when CBD office attendance and weather both help trade.  
+  - **December–January** sit closer to **$100K–$120K**, matching Melbourne’s holiday exodus and quieter office periods.
+
+---
+
+## 7) Recommendations:
+
+- **Defend the core coffee line while nudging baskets up**  
+  - Keep Latte, Flat White and Cappuccino front and centre – they’re the default order for office workers.  
+  - Use them as anchors: push “coffee + food” combos at breakfast and mid-morning to lift average ticket rather than chasing more cups alone.
+
+- **Lean into food as the growth engine**  
+  - Put **Cinnamon scroll, Berry Bircher, Fresh Sandwich and Bircher Muesli** on prime display and digital boards during commute and lunch windows.  
+  - Treat them as hero items: limited-time flavours, bundle pricing with coffees, and clear signage for “fast grab” for office crowds.
+
+- **Plan labour and ordering around Melbourne’s true peaks**  
+  - Staff up and order aggressively for **spring and autumn** peaks; that’s when CBD foot traffic and outdoor-coffee culture align.  
+  - In **Dec–Jan**, run leaner rosters, trim prep volumes, and shift focus to tourists and pass-through trade rather than full office capacity.
+
+- **Use promotions surgically, not blanket discounts**  
+  - Target low-forecast months and slower weeks with specific offers (e.g. afternoon pastry deals, rainy-day promos), instead of cutting prices across the board.  
+  - Measure response in **MoM Growth %** and **Sales Variance %** for those months to keep only the campaigns that genuinely move the needle.
+
+- **Continuously curate the Top 10 list**  
+  - Review the **Top 10 Items with Highest Forecasted Sales** every quarter.  
+  - Keep items with strong positive **Variance %** and solid margins; tweak recipe, price, or placement for those slipping, and don’t hesitate to retire chronic underperformers – Melbourne coffee drinkers are quick to adopt something better.
+ 
+ ---
