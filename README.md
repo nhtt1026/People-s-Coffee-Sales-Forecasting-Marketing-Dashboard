@@ -46,79 +46,61 @@ The goal is to turn raw POS data into clear metrics and visuals that support dai
 
 ---
 
-## 5) Business Metrics
+## 5) Business Metrics:
 
-- **Sales & Growth**
-  - Actual Sales 12M
-  - Forecast Sales 12M
-  - Sales Variance % (Actual vs Forecast)
-  - MoM Growth % and QoQ Growth %
-
-- **Forecast & Trend**
-  - Net Sales Trend (Actual vs Forecast by month)
-  - Forecasted Sales by Month & Season (12M forecasted)
-
-- **Products & Categories**
-  - Top 10 Best-Selling Items by Total Net Sales
-  - Top 10 Items with Highest Forecasted Sales (Actual Sales 12M, Forecast 12M, Sales Variance)
-  - Category Contribution to Total Net Sales (e.g., People’s Coffee, pastries, RTD)
-
-- **Seasonality & Demand**
-  - Sales and forecasts sliced by Season (Autumn, Winter, Spring, Summer)
-  - Holiday Month vs Non-Holiday Month performance (with HasHoliday filter)
+- **Sales & Growth:** Actual Sales 12M, monthly Net Sales, MoM % and QoQ %  
+- **Forecast:** Forecast Sales 12M, Sales Variance (%), Net Sales Trend (Actual vs Forecast)  
+- **Products & Categories:** Net Sales by item & category, Top 10 Best-Selling Items, Top 10 Items with Highest Forecasted Sales  
+- **Seasonality & Demand:** Forecasted Sales by Month & Season, Holiday vs Non-Holiday performance
 
 ---
 
 ## 6) Insights:
 
-- **Overall performance**  
-  - Actual Sales 12M: **$1.46M** vs Forecast 12M: **$1.69M** → **+15.41% Sales Variance %**  
-  - Positive short-term momentum with **+3.28% MoM Growth %** and **+10.31% QoQ Growth %**.
+- **Sales & Growth:**
+  - Actual Sales 12M: $1.46M vs Forecast 12M: $1.69M → +15.41% Sales Variance %
+  - Positive short-term momentum with +3.28% MoM and +10.31% QoQ growth.
 
-- **Top products vs forecast**  
-  - Latte, Flat White and Cappuccino remain the highest by Net Sales (Total), but all have **negative Variance %**  
-    - Latte: –10.68%, Flat White: –6.88%, Cappuccino: –9.39%.
+- **Core Coffee Range:**
+  - Latte, Flat White, Cappuccino are top items by Net Sales (Total) but each shows negative Variance % (–10.68%, –6.88%, –9.39%), indicating mature but flattening products.
 
-- **Emerging growth items**  
-  - Fresh Sandwich: **+23.76% Variance %**.  
-  - Cinnamon scroll: **+126.40% Variance %**.
-  - Long Black: **+10.54% Variance %**.  
-  - Berry Bircher: **+88.18% Variance %**.  
+- **Food & Breakfast Items:**
+  - Fresh Sandwich (+23.76% Variance %), Cinnamon scroll (+126.40%), Berry Bircher (+88.18%) and Bircher Muesli ($0 → ~$46.6K) are key growth drivers in the Top 10 forecasted items.
 
-- **Top 10 portfolio impact**  
-  - For the Top 10 Items with Highest Forecasted Sales, Actual Sales 12M total **$831K**, Forecast 12M **$914K** → **+9.94% Variance %** from just these 10 SKUs.
+- **Top 10 Items Impact:**
+  - Top 10 Items with Highest Forecasted Sales: Actual 12M $831K → Forecast 12M $914K (+9.94%), showing a small SKU set drives most projected uplift.
 
-- **Seasonality**  
-  - Stronger months in **spring and autumn (Sept–Nov, Mar–May)** around **$130K–$155K**.
-  - Softer months in **Dec–Jan** closer to **$100K–$120K**.
-  - Pattern aligns with CBD office rhythms and Melbourne holiday periods.
+- **Seasonality:**
+  - Spring and autumn months (Sept–Nov, Mar–May) forecast ~$130K–$155K; Dec–Jan sits closer to $100K–$120K, matching CBD office and holiday patterns.
 
 ---
 
 ## 7) Recommendations:
 
-- **Protect core coffee sales**  
-  - Keep Latte, Flat White and Cappuccino front and centre, they’re the default order for office workers.  
-  - Use them to lift basket size: push **coffee + pastry / breakfast** bundles during morning and mid-morning peaks to offset their negative Variance %.
+### Sales & Growth:
+- Protect the current $1.46M run-rate while aiming to realise the $1.69M forecast; focus on improving mix and basket size rather than heavy discounting.
+- Use MoM Growth % and QoQ Growth % as early-warning metrics. If either turns negative for 2 months in a row, review pricing, service speed and local competition.
 
-- **Push high-growth food item**  
-  - Prioritise **Cinnamon scroll, Berry Bircher, Fresh Sandwich** in display, menu boards and app tiles.
-  - Actively promote them by:
-    - Featuring them in “grab-and-go” offers for office workers.
-    - Pairing them with core coffees at a small bundle discount.
+### Core Coffee Range:
+- Keep Latte, Flat White and Cappuccino as flagship drinks on the menu, but treat them as stable base volume rather than growth drivers.
+- Build “coffee + food” bundles around these core coffees to lift average ticket value and offset their negative Variance %.
+- Monitor Variance % for these items after bundle and loyalty campaigns to confirm whether performance is stabilising or still slipping.
 
-- **Plan inventory and labour by season**
-  - For **Sept–Nov, Mar–May** (**high forecast months, spring & autumn**), schedule more baristas and kitchen prep, order beans and ingredients in line with the forecast.
-  - For **Dec–Jan** (**softer months**), run leaner rosters and tighter ordering, and test tourist-friendly or holiday-themed offers instead of staffing for full, as there's not much office traffic.
- 
-- **Use promotions surgically, not blanket discounts**  
-  - Target low-forecast months with specific offers (e.g. rainy-day promos in Sep – Nov), instead of cutting prices across the board.  
-  - Measure response in **MoM Growth %** and **Sales Variance %** for those months to keep only the campaigns that genuinely move the needle.
-    
-- **Continuously tune the product mix**
-  - Review the **Top 10 Items with Highest Forecasted Sales** quarterly:
-    - Keep items with strong positive **Variance %** and **good margins**.
-    - Investigate declining core coffees (price perception, competition, quality drift).
-    - Retire or reformulate items that sit in the bottom of the list with weak sales and no forecasted lift.
+### Food & Breakfast Items:
+- Feature Fresh Sandwich, Cinnamon scroll, and Berry Bircher prominently in cabinets and app orders during breakfast and lunch; they are the main growth drivers.
+- Create targeted bundles to convert coffee-only visits into higher-value orders. For example:
+  - Morning treat: Latte + Cinnamon scroll
+  - Healthy breakfast: core coffee (e.g. Flat White or Long Black) + Berry Bircher or Bircher Muesli
+  - Lunch: Fresh Sandwich + any core coffee
+- Track Bircher Muesli’s actual sales against its ~$46.6K forecast over the next few months to decide whether to expand the line or adjust recipe/pricing.
+
+### Top 10 Items Impact:
+- Prioritise stock levels, staff training and promo placement for the Top 10 Items with Highest Forecasted Sales, as they generate most of the projected +9.94% uplift.
+- Review each Top 10 item quarterly: keep investing in SKUs with strong + Variance % and good margins. Rework or retire items that stay flat or negative.
+
+### Seasonality:
+- Plan rosters and ordering around spring and autumn (Sept–Nov, Mar–May) as peak months at ~$130K–$155K; ensure enough baristas, kitchen prep and inventory.
+- Run leaner rosters and tighter ordering in Dec–Jan (~$100K–$120K) and use targeted campaigns (tourist/holiday offers) instead of broad discounts.
+- Use the Month, Season and Holiday filters to test seasonal drinks and promotions, keeping only those that visibly improve MoM Growth % for that period.
  
  ---
