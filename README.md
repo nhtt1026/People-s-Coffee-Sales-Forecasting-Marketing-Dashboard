@@ -1,6 +1,6 @@
 ## 1) Problem Overview:
 
-People’s Coffee is a local café chain with three branches across Melbourne.  
+People’s Coffee is a local café chain with 3 branches across Melbourne (https://peoplescoffee.com.au/).  
 This project focuses on the 440 Collins Street CBD branch, where management needs a data-driven way to:
 
 - Track sales performance over time  
