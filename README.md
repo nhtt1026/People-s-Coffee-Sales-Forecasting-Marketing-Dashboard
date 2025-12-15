@@ -1,12 +1,13 @@
 ## 1) Problem Overview:
 
-People’s Coffee is a local café chain with 3 branches across Melbourne (https://peoplescoffee.com.au/).  
-This project focuses on the 440 Collins Street CBD branch, where management needs a data-driven way to:
+[People’s Coffee](https://peoplescoffee.com.au/) is a local café chain with 3 branches across Melbourne.
+
+This project is inspired by the 440 Collins Street CBD branch and uses simulated POS data to answer a real-world business question. The branch manager needs a data-driven way to:
 
 - Track sales performance over time  
 - Forecast future demand  
 - Identify low-demand periods  
-- Optimise staffing and stock levels  
+- Optimise staffing and stock levels
 
 The goal is to turn raw POS data into clear metrics and visuals that support daily operational and marketing decisions.
 
